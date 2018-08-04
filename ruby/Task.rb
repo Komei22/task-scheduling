@@ -9,6 +9,7 @@ class Task
 		@next_tasks = Array.new()
 		@prev_tasks = Array.new()
 	end
+
 	def InputTaskInfo()
 		tasks = Array.new()
 		task_idx = 0

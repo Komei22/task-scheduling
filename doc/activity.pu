@@ -1,0 +1,13 @@
+@startuml
+start
+:入力受付（ASAP, ALAP, LIST);
+if(ASAP) then (yes)
+  :ASAP実行;
+elseif(ALAP) then (yes)
+  :ALAP実行;
+elseif(LIST) then (yes)
+  :LIST実行;
+endif
+:スケジューリング結果出力（画像）;
+end
+@enduml
