@@ -1,0 +1,6 @@
+[package]
+name = "task-scheduling"
+version = "0.1.0"
+authors = ["Komei Nomura <softball.22.5113@gmail.com>"]
+
+[dependencies]
